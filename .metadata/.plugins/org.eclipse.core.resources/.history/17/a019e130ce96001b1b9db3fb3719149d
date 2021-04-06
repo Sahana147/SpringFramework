@@ -1,0 +1,22 @@
+package com.xworkz.fooditem.service;
+
+import com.xworkz.fooditem.entity.HotelVendorEntity;
+import com.xworkz.fooditem.repository.HotelVendorRepository;
+
+public class HotelVendorServiceImpl implements HotelVendorService {
+
+	private HotelVendorRepository hotelVendorRepository;
+	
+	public HotelVendorServiceImpl() {
+		System.out.println("created obj" + this.getClass().getSimpleName());
+	}
+	
+	@Override
+	public boolean validateAndSave(HotelVendorEntity entity) {
+		System.out.println("invoked  validateAndSave" + entity);
+		System.out.println("entity is valid ");
+		hotelVendorRepository.save(entity);
+		return false;
+	}
+
+}

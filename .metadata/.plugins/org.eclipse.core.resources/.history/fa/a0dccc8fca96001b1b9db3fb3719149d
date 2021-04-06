@@ -1,0 +1,13 @@
+package com.xworkz.fooditem.service;
+
+import com.xworkz.fooditem.entity.FoodItemEntity;
+
+public class FoodItemServiceImpl implements FoodItemService {
+
+	@Override
+	public boolean validateAndSave(FoodItemEntity entity) {
+		
+		return false;
+	}
+
+}

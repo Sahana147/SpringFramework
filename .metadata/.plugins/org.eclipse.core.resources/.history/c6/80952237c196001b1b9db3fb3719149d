@@ -1,0 +1,5 @@
+package com.xworkz.fooditem.entity;
+
+public class CustomerEntity {
+
+}

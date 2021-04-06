@@ -1,0 +1,21 @@
+package com.xworkz.component.tester;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.xworkz.component.WashingMachine;
+
+public class WasingTester {
+
+	public static void main(String[] args) {
+
+
+		ApplicationContext container = new ClassPathXmlApplicationContext("injection.xml");
+		WashingMachine ref = container.getBean(WashingMachine.class));
+		
+		
+
+	}
+
+	
+}

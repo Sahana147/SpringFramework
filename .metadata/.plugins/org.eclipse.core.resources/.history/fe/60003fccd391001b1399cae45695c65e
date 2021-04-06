@@ -1,0 +1,8 @@
+package com.xworkz.spring.component;
+
+public class JailComponent {
+	public JailComponent() {
+		System.out.println("obj created " + this.getClass().getSimpleName());
+	}
+
+}

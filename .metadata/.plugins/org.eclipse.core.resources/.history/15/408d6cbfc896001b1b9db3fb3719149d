@@ -1,0 +1,22 @@
+package com.xworkz.fooditem.service;
+
+import com.xworkz.fooditem.entity.CustomerEntity;
+import com.xworkz.fooditem.repository.CustomerRepository;
+
+public class CustomerServiceImpl implements CustomerService {
+	
+	private CustomerRepository customerRepository;
+	
+	public CustomerServiceImpl(CustomerRepository customerRepository) {
+		System.out.println("created obj" + this.getClass().getSimpleName());
+	}
+
+	@Override
+	public boolean validateAndSave(CustomerEntity entity) {
+		
+		return false;
+	}
+	
+	
+
+}

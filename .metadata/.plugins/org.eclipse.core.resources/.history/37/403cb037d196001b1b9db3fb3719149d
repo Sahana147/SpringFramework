@@ -1,0 +1,19 @@
+package com.xworkz.fooditem.tester;
+
+import com.xworkz.fooditem.constants.FoodType;
+import com.xworkz.fooditem.entity.FoodItemEntity;
+
+public class FoodTester {
+
+	public static void main(String[] args) {
+		
+		
+		FoodItemEntity entity=new FoodItemEntity("FridRice", 70, FoodType.NORTHINDIAN, 2, 20);
+		
+		
+	}
+
+	
+	
+
+}

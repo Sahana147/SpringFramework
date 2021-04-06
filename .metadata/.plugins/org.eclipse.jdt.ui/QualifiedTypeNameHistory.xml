@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.xworkz.spring.component.RocketComponent"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.xworkz.spring.component.SoftwareComponent"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"/>
+<fullyQualifiedTypeName name="com.xworkz.cameracomponents.ITCProduct"/>
+<fullyQualifiedTypeName name="com.xworkz.component.PowerComponent"/>
+<fullyQualifiedTypeName name="com.xworkz.component.MotorComponent"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.xworkz.component.WashingMachine"/>
+</qualifiedTypeNameHistroy>

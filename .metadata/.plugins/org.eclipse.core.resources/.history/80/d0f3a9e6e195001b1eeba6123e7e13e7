@@ -1,0 +1,10 @@
+package com.xworkz.component;
+
+public class Power {
+ boolean on;
+ 
+ public Power() {
+	 
+	 System.out.println("obj created for:" + this.getClass().getSimpleName());
+ }
+}

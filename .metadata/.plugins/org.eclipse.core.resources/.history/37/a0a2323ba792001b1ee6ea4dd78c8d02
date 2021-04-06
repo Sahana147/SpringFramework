@@ -1,0 +1,20 @@
+package com.xworkz.spring.component.tester;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.xworkz.spring.component.RocketComponent;
+
+public class RocketTester {
+
+	public static void main(String[] args) {
+		
+    String xmlFile = "rocket.xml";
+    
+    ApplicationContext container = new ClassPathXmlApplicationContext(xmlFile);
+    
+    container.getBean(RocketComponent.class);
+    
+	}
+
+}

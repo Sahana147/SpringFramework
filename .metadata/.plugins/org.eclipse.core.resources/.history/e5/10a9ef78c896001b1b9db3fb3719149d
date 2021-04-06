@@ -1,0 +1,15 @@
+package com.xworkz.fooditem.service;
+
+import com.xworkz.fooditem.entity.CustomerEntity;
+
+public class CustomerServiceImpl implements CustomerService {
+
+	@Override
+	public boolean validateAndSave(CustomerEntity entity) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	
+
+}

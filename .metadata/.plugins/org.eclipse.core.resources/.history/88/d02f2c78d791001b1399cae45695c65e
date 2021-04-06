@@ -1,0 +1,23 @@
+package com.xworkz.spring.component;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		
+		String firstXmlFile = "first.xml";
+		String secondXmlFile = "second.xml";
+		
+		ApplicationContext container = new ClassPathXmlApplicationContext(firstXmlFile);
+		ApplicationContext container2 = new ClassPathXmlApplicationContext(secondXmlFile);
+		
+		JailComponent refOfJailComponent = container.getBean(JailComponent.class);
+		
+		CameraComponent refOfCameraComponent = container2.getBean(CameraComponent.class);
+		
+		System.out.println(container2.getBeanDefinitionCount());
+	}
+
+}

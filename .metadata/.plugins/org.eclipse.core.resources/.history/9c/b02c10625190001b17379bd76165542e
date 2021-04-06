@@ -1,0 +1,15 @@
+package com.xworkz.camera;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class SpringTester {
+	public static void main(String[] args) {
+		
+		String xmlFileName = "spring-first-step";
+		ApplicationContext spring = ClassPathXmlApplicationContext(xmlFileName);
+		
+		
+	}
+
+}

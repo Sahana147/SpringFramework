@@ -1,0 +1,16 @@
+package com.xworkz.fooditem.entity;
+
+import com.xworkz.fooditem.constants.FoodType;
+
+public class FoodItemEntity {
+	
+	private String name;
+	private int price;
+	private FoodType type;
+	private int quantity; 
+	private int discount;
+	
+	
+	
+
+}

@@ -1,0 +1,14 @@
+package com.xworkz.spring.component;
+
+public class RocketComponent {
+	
+	private String fuelType;
+	
+	private String country;
+	
+	public RocketComponent() {
+		System.out.println("object created for: " + this.getClass().getSimpleName());
+	}
+	
+
+}

@@ -1,0 +1,13 @@
+package com.xworkz.fooditem.tester;
+
+public class HotelTester {
+
+	public static void main(String[] args) {
+		
+		HotelVendorEntity entity = new HotelVendorEntity("Kavya", "Gadag", 6, 7890675432f, HotelVendorType.WHOLESALERS);
+		HotelVendorRepository hotelVendorRepository = new HotelVendorRepositoryImpl();
+		HotelVendorService hotelVendorService = new HotelVendorServiceImpl(hotelVendorRepository);
+		hotelVendorService.validateAndSave(entity);
+	}
+
+}

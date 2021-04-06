@@ -1,0 +1,11 @@
+package com.xworkz.component;
+
+public class Motor {
+	
+ public int warrentyPeriod;
+ 
+ public void rotate() {
+	 System.out.println("job of the motor is to rotate all the time ");
+ }
+
+}

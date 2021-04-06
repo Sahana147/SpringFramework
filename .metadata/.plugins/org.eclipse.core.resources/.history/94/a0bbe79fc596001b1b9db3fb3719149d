@@ -1,0 +1,6 @@
+package com.xworkz.fooditem.service;
+
+public interface FoodItemService {
+	
+
+}

@@ -1,0 +1,23 @@
+package com.xworkz.component;
+
+public class Power {
+	boolean on;
+
+	public Power() {
+
+		System.out.println("obj created for:" + this.getClass().getSimpleName());
+	}
+	
+	public boolean isOn() {
+		System.out.println("invoked isOn method");
+		if(on) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
+	
+
+}

@@ -1,0 +1,5 @@
+package com.xworkz.fooditem.constants;
+
+public enum FoodType {
+
+}

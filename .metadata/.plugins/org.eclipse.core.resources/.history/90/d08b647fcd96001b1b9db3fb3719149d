@@ -1,0 +1,5 @@
+package com.xworkz.fooditem.service;
+
+public class HotelVendorServiceImpl implements HotelVendorService {
+
+}

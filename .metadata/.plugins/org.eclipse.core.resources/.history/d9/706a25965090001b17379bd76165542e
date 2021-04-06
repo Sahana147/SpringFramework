@@ -1,0 +1,10 @@
+package com.xworkz.camera;
+
+public class SpringFramework {
+	
+	SpringFramework(){
+		System.out.println("SpringFramework obj created" + this.getClass().getSimpleName());
+		
+	}
+
+}

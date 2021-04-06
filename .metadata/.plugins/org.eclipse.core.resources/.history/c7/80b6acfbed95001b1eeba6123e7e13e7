@@ -1,0 +1,35 @@
+package com.xworkz.component;
+
+public class WashingMachine {
+
+	private String companyName;
+	private float capacity;
+	private Power pow;
+	private Motor motor;
+
+	public WashingMachine() {
+		System.out.println("obj created:" + this.getClass().getSimpleName());
+		this.companyName = companyName;
+		this.capacity = capacity;
+
+	}
+
+	public Boolean wash() {
+		System.out.println("invoked wash method");
+		if (this.pow.isOn()) {
+			this.motor.rotate();
+
+		}
+		return true;
+	}
+
+	public void setPower(Power power) {
+		this.pow = power;
+
+	}
+
+	public void setMotor(Motor motor) {
+		this.motor = motor;
+	}
+
+}
