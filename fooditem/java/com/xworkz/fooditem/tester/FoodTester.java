@@ -1,5 +1,8 @@
 package com.xworkz.fooditem.tester;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import com.xworkz.fooditem.constants.FoodType;
 import com.xworkz.fooditem.entity.FoodItemEntity;
 import com.xworkz.fooditem.repository.FoodItemRepository;
@@ -11,11 +14,17 @@ public class FoodTester {
 
 	public static void main(String[] args) {
 
+		
+		ApplicationContext container = new ClassPathXmlApplicationContext("injectionFile.xml");
+		FoodItemService ref =  container.getBean(FoodItemService.class);
 		FoodItemEntity entity = new FoodItemEntity("Dosa", 50, FoodType.SOUTHINDIAN, 2, 20);
-		FoodItemRepository repo = new FoodItemRepositoryImpl();
-
-		FoodItemService service = new FoodItemServiceImpl(repo);
-		service.validateAndSave(entity);
+		ref.validateAndSave(entity);
+		
+		
+//		FoodItemRepository repo = new FoodItemRepositoryImpl();
+//
+//		FoodItemService service = new FoodItemServiceImpl(repo);
+//		service.validateAndSave(entity);
 
 	}
 
